@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Money Master <img src="./img/Untitled-1-01.png" alt="" id="logo-img"></h1>
+    </header>
+    <main>
+        <section id="main-section">
+            <div id="hero-img">
+                <img src="./img/money.jpg" alt="" id="hero">
+            </div>
+            <div id="utilities">
+                <div>
+                    <h3>Income</h3>
+                    <label for="income">Income: </label><input type="text" name="" id="income">
+                    <h3>Expenses</h3>
+                    <div id="expensess">
+                        <label for="food">Food: </label><input type="text" name="" id="food"> <br>
+                        <label for="rent">Rent: </label><input type="text" name="" id="rent"> <br>
+                        <label for="clothes">Clothes: </label><input type="text" name="" id="clothes">
+                    </div>
+                    <button class="btn" id="calculate">Calculate</button>
+                    <h3>Total Expenses: <span id="total-expenses"></span></h3>
+                    <h3>Balance: <span id="balance"></span></h3>
+                    <div class="savings">
+                        <label for="saving">Save: </label><input type="text" id="saving">
+                        <p> % </p> <button class="btn" id="save">Save</button>
+                    </div>
+                    <h3>Saving Amount: <span id="saving-amount"></span></h3>
+                    <h3>Remaining Balance: <span id="remaining"></span></h3>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
